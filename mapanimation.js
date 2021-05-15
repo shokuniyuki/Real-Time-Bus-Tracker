@@ -18,7 +18,7 @@ const busStops = [
   
   let map = new mapboxgl.Map({
     container: 'map',
-    style: 'mapbox://styles/mapbox/light-v10',
+    style: 'mapbox://styles/mapbox/satellite-streets-v11',
     center: [-71.104081, 42.365554],
     zoom: 13,
   });
@@ -28,7 +28,7 @@ const busStops = [
     .addTo(map);
 
   let startMarker = new mapboxgl.Marker()
-    .setLngLat([-71.093729, 42.359244])
+    .setLngLat([-71.092761, 42.357575])
     .addTo(map);
 
   let endMarker = new mapboxgl.Marker()
